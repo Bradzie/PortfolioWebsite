@@ -1,22 +1,53 @@
 
 body {
-  background-image: linear-gradient(grey, grey, black);
+  background-image: linear-gradient(grey, black, black, black);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  margin: 0;
+  font-family: monospace;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  background-color: black;
+  padding-left: 0.25em;
+}
+
+nav a {
+  text-decoration: none;
+  color: orange;
+  font-size: 0.75em;
+  padding: 0.25em;
+  border-left: 3px solid white;
+}
+
+#menuToggler{
+  font-size: 4em;
+  text-align: left;
+  line-height: 2em;
+  padding-left: 0.5em;
 }
 
 .nameTitle {
   text-align: center;
-  font-family: monospace;
-  font-size: 72px;
+  font-size: 8em;
   font-weight: bolder;
   font
 }
 
 .subTitle{
   text-align: center;
-  font-family: monospace;
-  font-size: 42px;
+  font-size: 4em;
   font-weight: bold;
+}
+
+.bodyText{
+  text-align: center;
+  font-size: 2em;
+  padding-left: 0.25em
+  padding-right: 0.25em
 }
