@@ -59,8 +59,28 @@ nav a:hover {
 .textContainer {
   background-color:#222222;
   display: grid;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.grid-item{
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.gitButton {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: orange;
+  font-size: 2em;
+  text-align: center;
+}
+
+.gitButton a{
+  text-decoration: none;
+  color: black;
 }
 
 .nameTitle {
